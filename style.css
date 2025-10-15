@@ -1,0 +1,94 @@
+
+body {
+  font-family:'Edu NSW ACT Cursive', cursive;
+}
+
+.header {
+    border: 5px solid purple;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.nav {
+    border: 5px solid blue;
+    display: flex;
+    justify-content:flex-end;
+    align-self:flex-end; 
+    list-style: none;
+}
+
+
+
+
+/*this is logo image*/
+.logo-img {
+    width: 95px;
+    height: 95px;
+}
+
+
+
+
+
+.container-header {
+    border: 5px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.introtext {
+     border: 5px solid red;
+}
+
+
+.introimage{
+     border: 5px solid orangered;
+}
+
+
+.chocolate {
+    width: 400px;
+    height: auto;
+}
+
+
+
+.container-header .{}
+
+
+
+.container-gallery {
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    flex-wrap: no-wrap;
+    padding: 10px 10px;
+    
+}
+
+.info {
+    border: 5px solid green;
+    text-align: center;
+    
+    
+}
+
+/*this is to resize cake images*/
+.cake {
+    border-radius: 15px;
+    width: auto;
+    height: 150px;
+    display:block;
+    margin: 0 auto 10px;
+    
+}
+
+.gallery-section {
+    border: 10px solid pink;
+    text-align: center;
+}
