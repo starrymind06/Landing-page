@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content:flex-start;
       
+    font-size: 20px;
     
 }
 
@@ -30,6 +31,7 @@ body {
     display: flex;
     list-style-type: none;
     gap: 20px; /*space between words*/
+    
     
    
 }
@@ -64,6 +66,7 @@ body {
   font-weight: bold;
   color: #fc8eac;
   
+  
 }
 
 
@@ -90,6 +93,7 @@ body {
      height: 300px;
      padding-right: 60px;
      color: white;
+     font-size: 18px;
      
 }
 
@@ -118,6 +122,8 @@ button {
 .container-header, .gallery-section{
 background-color: #ec769a;
 padding: 0 10px;
+      font-size: 20px;
+
     
 }
 
@@ -191,45 +197,89 @@ blockquote {
     width: 920px;
 }
 
-/*all items in last box*/
-.lastbox {
-       max-width: 740px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:#e4cfb3;
-    padding: 0 90px;
-    
-}
+
 
 /*all text in last box*/
-.lastbox-text-container {
-     
-    
+.cta-text-container {
+    display: flex;
+    flex-direction: column;   
+    margin: 0px 20px;    
 }
 
 
 /*Call to action and sign up selected but individual*/
-.lastboxtext, h3 {
+.ctatext, h3 {
     padding: 0;
     margin: 0px;
    
 }
 
 
-/*actual buton*/
-.lastbutton {
-   background-color: #d647a6;
+.ctatext {
+    margin-top: 10px;
+    font-size: 1rem;  
+
+}
+
+
+.ctawrapper {
+    background-color: #e4cfb3;
+    padding: 20px;
+    margin: 0px auto;
+    width: 880px;
+
+}
+
+
+
+/*pink cta container*/
+.cta {
+   background-color: #e4547f;
    color: white;
-   padding: 10px 20px;
-   border-radius: 5px;
-   cursor: pointer;
-   align-self: center;
+   border-radius: 8px;
+
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   width: 750px;
+   max-width: 1200px;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+    margin: 20px auto;
+
+    padding: 20px;
+   
    
 }
 
-.lastbutton:hover {
-    background-color: #fc8eac;
+
+
+
+
+
+.lastbutton {
+    background-color: #e4547f;
+    color: #fbfcf9;
+    border: 2px solid white;
+    margin: 0px 70px;
 }
 
+
+.lastbutton:hover {
+    background-color: #e27baf;
+}
+
+.footer {
+    background-color: #e27baf;
+    color: white;
+     max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 920px;
+text-align: center;
+font-size: 12px;
+
+}
