@@ -1,9 +1,10 @@
 
 body {
   font-family: "Sour Gummy", sans-serif;
-
-  
+  margin: 0;
 }
+
+
 
 
 /*container with logo and nav*/
@@ -194,9 +195,10 @@ blockquote {
     text-align: center;
     margin: 90px auto 90px;
      background-color:#fc8eaba1;
-    color: white;
+    color: rgb(113, 78, 211);
     margin: 0 auto;
     padding: 20px 0;
+    font-style: bold;
     
 }
 
